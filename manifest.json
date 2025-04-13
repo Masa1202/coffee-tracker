@@ -2,7 +2,7 @@
     "name": "コーヒー打刻システム",
     "short_name": "コーヒー打刻",
     "description": "コーヒーを飲んだ時間を記録するアプリ",
-    "start_url": "/",
+    "start_url": "/coffee-tracker/",
     "display": "standalone",
     "background_color": "#f5f5f5",
     "theme_color": "#795548",
