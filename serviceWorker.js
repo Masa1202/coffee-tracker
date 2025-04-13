@@ -1,9 +1,9 @@
 const CACHE_NAME = 'coffee-tracker-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/icon-192.jpg',
-  '/icon-512.jpg'
+  '/coffee-tracker/',
+  '/coffee-tracker/index.html',
+  '/coffee-tracker/icon-192.jpg',
+  '/coffee-tracker/icon-512.jpg'
 ];
 
 // インストール時にリソースをキャッシュ

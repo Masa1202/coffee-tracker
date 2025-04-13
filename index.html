@@ -10,11 +10,11 @@
     <link rel="apple-touch-icon" href="icon-192.jpg">
     <script>
         if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/serviceWorker.js')
-              .then(reg => console.log('Service worker registered'))
-              .catch(err => console.log('Service worker registration failed:', err));
-          });
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/coffee-tracker/serviceWorker.js')
+                .then(reg => console.log('Service worker registered'))
+                .catch(err => console.log('Service worker registration failed:', err));
+            });
         }
     </script>
     <title>コーヒー打刻システム</title>
